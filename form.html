@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"defer ></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="forms.css" type="text/css">
+    <script src="form.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Register Form|SPS</title>
+</head>
+<body style="padding-left: 0px; padding-right: 0px;">
+    
+
+    <header class="text-center pt-5">
+        <h1 class="h1-tags">SPS<span class="col">.</span></h1>
+    </header>
+    
+    <section class="bg-light section_1">
+      
+   <div class="container-fluid box">
+ 
+
+    
+    <div style="display: flex;justify-content: center;" class="row container">
+        <form action="#" method="POST" id="form" class="pt-3">  
+          <div class="form-group">
+            
+            <h1 class="col">REGISTRATION</h1>
+          </div>
+
+            <div class="form-group">
+            
+                <input type="text" class="form-control inp  text-muted" id="" name="Fname" placeholder="Fullname">
+              </div>
+            
+            <div class="form-row">
+                
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control inp  text-muted" id="" name="Place" placeholder="Place">
+              </div>
+              <div class="form-group col-md-6">
+               <select name="Gender" class="w-100 inp  text-muted" id="">
+                   <option value="" disabled>Gender</option>
+                   <option value="">Male</option>
+                   <option value="">Female</option>
+               </select>
+              </div>
+            </div>
+            <div class="form-group">
+            
+              <input type="email"  name="Email" class="form-control inp  text-muted" id="" placeholder="Email">
+            </div>
+
+
+            <div class="form-row">
+                
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control  text-muted" id="" name="Contact" placeholder="Contact no">
+                </div>
+                <div class="form-group col-md-6">
+                 <select class="w-100 inp  text-muted" name="EmployementStatus" id="">
+                     <option value="" disabled>Employement Status</option>
+                     <option value="">Employed</option>
+                     <option value="">Fresher</option>
+                     <option value="">Student</option>
+                 </select>
+                </div>
+              </div>
+              <div class="form-group">
+            
+                <select class="w-100 inp  text-muted" name="Education" id="">
+                    <option value="" disabled>Educational Qualification</option>
+                    <option value="">B.Tech</option>
+                    <option value="">M.Tech</option>
+                    <option value="">BCA/MCA</option>
+                    <option value="">Bsc/Msc</option>
+                    <option value="">Diploma</option>
+                    <option value="">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+            
+               <input type="text" class="w-100 inp  text-muted" name="College" placeholder="Name of college / Organization">
+              </div>
+              <div class="form-group">
+            
+                <input type="number" class="w-50 inp  text-muted" name="Graduation" min="1960" max="2010" placeholder="Year of Graduation">
+               </div>
+               <div class="form-group">
+            
+                <textarea name="About" class="w-100 inp  text-muted" id="" placeholder="Tell us more about you..." cols="30" rows="5"></textarea>
+               </div>
+               <div class="form-group">
+            
+                <textarea name="Why" class="w-100 inp  text-muted" id="" placeholder="Why do you want to join SPS?" cols="30" rows="5"></textarea>
+               </div>
+               <div class="form-group">
+            
+                <textarea name="Motivation" class="w-100 inp  text-muted" id="" placeholder="What motivates you to work hard everyday?  " cols="30" rows="5"></textarea>
+               </div>
+               <div class="form-group">
+            
+                <select name="Know" class="inp  text-muted"  id="">
+                  <option value="" disabled>Frow where did you learn about SPS?</option>
+                  <option value="">CrossRoads Youtube Channel</option>
+                  <option value="">Youtube</option>
+                  <option value="">Friends</option>
+                  <option value="">Facebook</option>
+                  <option value="">Whatsapp Group</option>
+                </select>
+               </div> 
+               
+               
+
+
+               <div class="form-group">
+            
+                <input type="checkbox" name="Agree">
+                <label for="" class=" text-muted"> I agree that I have read and understood all the <span>FAQs</span></label>
+               </div>
+               
+            
+            <button type="submit" class="btn bgc">REGISTER</button>
+          </form>
+    </div>
+
+   </div>
+</section>
+<footer>
+    <p class="text-muted text-center pt-5"> Copyright ©Packapeer Academy Pvt Ltd 2021 </p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

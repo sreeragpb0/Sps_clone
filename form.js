@@ -1,0 +1,60 @@
+$(document).ready(function(){
+    $("#form").validate({
+        rules:{
+            Fname:{
+                required:true,
+                minlength:5,
+            },
+            Email:{
+                required:true,
+                email:true,
+            },
+            Place:{
+                required:true,
+
+            },
+            Contact:{
+                required:true,
+                Number:true,
+                minlength:10,
+        
+            },
+            Gender:{
+                required:true,
+            },
+            EmployementStatus:{
+                required:true,
+            },
+            Education:{
+                required:true,
+            },
+            College:{
+                required:true,
+            },
+            Graduation:{
+                required:true,
+            },
+            Why:{
+                required:true,
+                minlength:20,
+            },
+            About:{
+                required:true,
+                minlength:20,
+            },
+            Motivation:{
+                required:true,
+                minlength:10,
+            },
+            Know:{
+                required:true,
+
+            },
+            Agree:{
+                required:true,
+            }
+
+
+        }
+    })
+})
